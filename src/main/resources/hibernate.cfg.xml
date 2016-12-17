@@ -21,7 +21,9 @@
         <property name="show_sql">true</property>
 
         <mapping class="com.hibernate.data.entities.User"/>
-
+		 <mapping class="com.hibernate.data.entities.TimeTest"/>
+		 <mapping class="com.hibernate.data.entities.Bank"/>
+		
     </session-factory>
 
 </hibernate-configuration>
